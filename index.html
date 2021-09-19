@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./client/assets/icons/1x/home-white.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Home | ES - Games</title>
+</head>
+<body>
+  <header>
+		<section class="header__container">
+      <section class="btn-menu">
+        <label for="btn-menu">☰</label>
+        <a href="#">
+          <img src="./client/assets/images/es-games_logo.png" alt="ES-Games Logo">
+        </a>
+        <h1>ES-Games</h1>
+      </section>
+      <nav class="container__nav">
+        <ul class="nav--menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="mailto:ramses.lanceno@alumnos.udg.mx">Contacto</a></li>
+          <li>
+            <a href="./client/cart/shopping.html" id="nav__img">
+              <img src="./client/assets/icons/cart-white.svg" alt="Carrito de compras">
+            </a>
+          </li>
+        </ul>
+      </nav>
+		</section>
+	</header>
+
+  <input type="checkbox" id="btn-menu">
+  <aside class="menu-lateral">
+    <section class="menu__content">
+      <label for="btn-menu">✖️</label>
+      <nav>
+        <ul>
+          <li><a href="./client/categories/1/games.html">Juegos</a></li>
+          <li><a href="./client/categories/2/consoles.html">Consolas</a></li>
+          <li><a href="./client/categories/3/offers.html">Descuentos</a></li>
+          <li><a href="./client/categories/4/limited-edition.html">Edición limitada</a></li>
+          <li><a href="./client/categories/5/accessories.html">Controles o accesorios</a></li>
+        </ul>
+      </nav>
+    </section>
+  </aside>
+
+  <main>
+    <figure class="main__figure">
+      <h2 class="figure__slogan">Ven y encuentra la mejor mercancia de videojuegos que vas a encontrar en el mercado</h2>
+      <ul class="figure__img">
+        <li><img src="./client/assets/images/portada1.jpg" alt="Portada de juego 1"></li>
+        <li><img src="./client/assets/images/portada2.jpg" alt="Portada de juego 2"></li>
+        <li><img src="./client/assets/images/portada3.jpg" alt="Portada de juego 3"></li>
+        <li><img src="./client/assets/images/portada4.jpg" alt="Portada de juego 4"></li>
+      </ul>
+    </figure>
+    <section class="testimonials">
+      <h3>Testimonios:</h3>
+      <div class="testimonials__sentence">
+        <a href="https://masseffect.fandom.com/es/wiki/Shepard" target="_blank">
+          <img src="./client/assets/images/cita-shepard.jpg">
+        </a>
+        <p>
+          Esta es mi tienda favorita de videojuegos de la ciudadela.<br><br>
+          <span>- Comandante Shepard</span>
+        </p>
+      </div>
+      <div class="testimonials__sentence">
+        <a href="https://halo.fandom.com/es/wiki/Lobo_Solitario" target="_blank">
+          <img src="./client/assets/images/cita-halo.jpeg">
+        </a>
+        <p>
+          Los Spartan nunca mueren...<br>Solo desaparecen comprando videojuegos en acción.<br><br>
+          <span>- Halo</span>
+        </p>
+      </div>
+      <div class="testimonials__sentence">
+        <a href="https://aceattorney.fandom.com/es/wiki/Phoenix_Wright" target="_blank">
+          <img src="./client/assets/images/cita-phoenix.jpeg">
+        </a>
+        <p>
+          Objeción!<br>La tienda de ES-Games es lo máximo!<br><br>
+          <span>- Phoenix Wright</span>
+        </p>
+      </div>
+      <div class="testimonials__sentence">
+        <a href="https://fallout.fandom.com/es/wiki/Fallout_4" target="_blank">
+          <img src="./client/assets/images/cita-fallout.jpeg">
+        </a>
+        <p>
+          La guerra...<br>La guerra no cambia nunca.<br><br>
+          <span>- Fallout</span>
+        </p>
+      </div>
+    </section>
+    <h3 class="categories__title">A continuación puedes apreciar los 6 articulos más vendidos en nuestra página:</h3>
+    <section class="carousel">
+      <section class="carousel__container">
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/2/products/xbox.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/producto-xbox.jpg" alt="Producto Top 1">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Consola Xbox Series X</h4>
+              <p class="carousel-item__details--subtitle">
+                La Xbox Series X es la consola inicial<br>de la octava generación de consolas<br>de videojuegos.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/4/products/residentEvilVillage.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/residentEvilVillage.jpg" alt="Producto Top 2">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Resident Evil Village</h4>
+              <p class="carousel-item__details--subtitle">
+                Cuando su casa se ve atacada por<br>Chris Redfield, el capitán de la BSAA,<br>Ethan debe adentrarse en los infiernos<br>una vez más para traer de vuelta a su<br>hija secuestrada.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/3/products/gameCube.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/gameCube.jpg" alt="Producto Top 3">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Control inalambrico</h4>
+              <p class="carousel-item__details--subtitle">
+                Los Controles de GameCube se<br>consideran la mejor manera de jugar<br>
+                Super Smash Bros Ultimate.</p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/2/products/nintendoSwitch.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/producto-switch.jpg" alt="Producto Top 4">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Nintendo Switch</h4>
+              <p class="carousel-item__details--subtitle">
+                Presentamos Nintendo Switch, el<br>nuevo sistema de videojuego que<br>proporciona emociones únicas y<br>multijugador en casa, el sistema<br>Nintendo Switch se puede llevar<br>mientras viaja
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/5/products/estuche-nintendo.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/estuche-nintendo.jpg" alt="Producto Top 5">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Estuche Nintendo Switch</h4>
+              <p class="carousel-item__details--subtitle">
+                Almacenamiento extra garnde.<br>Nuestro Estuche de NS Pack Real 6 en<br>1 le traen los accesorios más prácticos<br>y de alta calidad que valen 1400 pesos.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item" title="Da clic para ver más sobre este producto">
+          <a href="./client/categories/4/products/oddworld-StrangerS-Wrath.html" target="_blank">
+            <img class="carousel-item__img" src="./client/assets/images/cat/oddworld.png" alt="Producto Top 6">
+            <div class="carousel-item__details">
+              <h4 class="carousel-item__details--title">Oddworld</h4>
+              <p class="carousel-item__details--subtitle">
+                Oddworld: Stranger’s Wrath, un título<br>que combina acción, aventura, FPS y<br>plataformas.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+
+    <section id="nosotros">
+      <article class="nosotros__cont">
+        <div>
+          <img src="./client/assets/images/nosotros.jpg">
+          <p>
+            Somos una compañia la cual vende articulos de videojuegos mediante esta pagina web en donde el usuario puede buscar lo nuevo de cada genero y compañia de videojuegos y poder apartar o comprar discho porducto de forma rapida y facil.
+          </p>
+        </div>
+        <span>¿Quienes somos?</span>
+      </article>
+      <article class="nosotros__cont">
+        <div>
+          <img src="./client/assets/images/historia.jpg">
+          <p>
+            Este proyecto nacio despues de tener malas experiencias con las tiendas locales de videojuegos, por lo que tiempo despues y reuniendo a un grupo de personas creamos esta pagina en donde uno buscar su articulo favorito de videojuegos sin la necesidad de ir a lugares especificos para su compra, solo con un click ya podras obtener tu articulo buscado.
+          </p>
+        </div>
+        <span>Historia</span>
+      </article>
+      <article class="nosotros__cont">
+        <div>
+          <img src="./client/assets/images/proposito.jpg">
+          <p>
+            Nuestra compañia solo busca el expandir las formas de compra de los videojuegos al mundo, facilitando su adquisicion para que nadie tenga que abandonar su casa y busque una tienda de juegos cercana a su ubicacion y tenga que esperar filas interminables de personas esperando para comprar su juego.
+          </p>
+        </div>
+        <span>Proposito</span>
+      </article>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <section class="footer__left">
+      <a href="mailto:ramses.lanceno@alumnos.udg.mx">
+        <img src="./client/assets/icons/gmail-logo.svg" alt="Gmail de Ramsés">Ramsés Anceno
+      </a>
+      <a href="mailto:ruben.vivian@alumnos.udg.mx">
+        <img src="./client/assets/icons/gmail-logo.svg" alt="Gmail de Emilio">Emilio Vivian
+      </a>
+      <a href="mailto:froilan.villasenor@alumnos.udg.mx">
+        <img src="./client/assets/icons/gmail-logo.svg" alt="Gmail de Froilan">Froilan Villaseñor
+      </a>
+      <a href="mailto:cristobal.mtorres@alumnos.udg.mx">
+        <img src="./client/assets/icons/gmail-logo.svg" alt="Gmail de Cristobal">Cristobal Torres
+      </a>
+      <a href="mailto:ivan.trillo@alumnos.udg.mx">
+        <img src="./client/assets/icons/gmail-logo.svg" alt="Gmail de Trillo">Ivan Trillo
+      </a>
+    </section>
+    <section class="footer__right">
+      <img src="./client/assets/images/es-games_logo.png" alt="ES-Games Logo">
+      <h3>ES-Games ®</h3>
+    </section>
+  </footer>
+</body>
+</html>
